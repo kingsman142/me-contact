@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy_ocr_library/easy_ocr_library.iml" filepath="$PROJECT_DIR$/easy_ocr_library/easy_ocr_library.iml" />
       <module fileurl="file://$PROJECT_DIR$/me-contact.iml" filepath="$PROJECT_DIR$/me-contact.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy_ocr_library/libs/tess-two/tess-two.iml" filepath="$PROJECT_DIR$/easy_ocr_library/libs/tess-two/tess-two.iml" />
     </modules>
   </component>
 </project>
