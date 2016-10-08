@@ -19,12 +19,13 @@ public class MainActivity extends AppCompatActivity {
         Button b = (Button) findViewById(R.id.button2);
         b.setOnClickListener(new View.OnClickListener(){
             public void onClick(View view){
+                System.out.println("Test");
                 String filename = "file.jpg";
                 File newFile = new File(filename);
                 Uri outputFileUrl = Uri.fromFile(newFile);
 
                 Intent camera = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-                camera.putExtra(MediaStore.EXTRA_OUTPUT, outputFileUrl);
+                //camera.putExtra(MediaStore.EXTRA_OUTPUT, outputFileUrl);
 
                 startActivityForResult(camera, 1);
             }
